@@ -21,7 +21,6 @@ const cookies_messages_button = document.getElementsByClassName(
   "cookies_messages_button"
 )[0];
 
-console.log(cookies_messages_button);
 cookies_messages_button.addEventListener("click", () => {
   setCookie("cookie_accept", true);
   cookie_window.classList.add("hide");
